@@ -1,0 +1,790 @@
+mouseWheel:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Bold
+      id: boldText
+      target: .e-elementcontent
+      iconCss: fa fa-bold
+    - text: Italicize
+      id: italicizeText
+      target: .e-elementcontent
+      iconCss: fa fa-italic
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 604
+  horizontalOffset: 84
+  verticalOffset: -230
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 604
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2B2B2B;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Rook_Black_87_ms758b.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Rook_pjjoxs.webp);"></div><div
+        class="c-text"><div class="c-title">Rook</div><div
+        class="c-short-description">Managing storage and data in cloud-native
+        environments</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Rook</div></div></div></div></div>'
+    id: RookrpTax
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Rook
+        shortDescription: Managing storage and data in cloud-native environments
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Rook
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Rook
+      editableName: Rook
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Rook
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Rook_pjjoxs.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Rook__0484848_swxs2k.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Rook_Black_87_ms758b.webp
+      color: "#2B2B2B"
+      controlText: Rook
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 337
+    offsetY: 251
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectorKehq0
+    outEdges:
+      - Straight ConnectorUNKD2
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #292E39;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Ceph_Black_87_j4mljj.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Ceph_ywwghl.webp);"></div><div
+        class="c-text"><div class="c-title">Ceph</div><div
+        class="c-short-description">Distributed storage management in
+        large-scale cloud environments</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Ceph</div></div></div></div></div>'
+    id: CephWadZ7
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Ceph
+        shortDescription: Distributed storage management in large-scale cloud environments
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Ceph
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Ceph
+      editableName: Ceph
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Ceph
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Ceph_ywwghl.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Ceph__0484848_b8baca.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Ceph_Black_87_j4mljj.webp
+      color: "#292E39"
+      controlText: Ceph
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 337
+    offsetY: 387
+    zIndex: 1
+    outEdges:
+      - Dashed Straight ConnectorKehq0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2c62e2; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Kubernetes_Black_87_xnxpag.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Kubernetes_lamy9f.webp);
+        border-radius: 50%"></div></div></div>'
+    id: KubernetesXtvXO
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes
+      editableName: Kubernetes
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Scheduled Job Executor
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: trigger
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenJobs
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+        - name: Intrusion Detector
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: intrusion
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenIntrusions
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Scheduled Job Executor
+          AverageTimeBetweenJobs: 1
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+        - type: Generator
+          status: Idle
+          name: Intrusion Detector
+          AverageTimeBetweenIntrusions: 1
+      name: Kubernetes
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Kubernetes_lamy9f.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Kubernetes_Black_nmc1j1.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Kubernetes_Black_87_xnxpag.webp
+      color: "#2c62e2"
+      controlText: Kubernetes
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 521
+    offsetY: 280
+    zIndex: 3
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/google_kubernetes_engine_Black_87_lho249.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/google_kubernetes_engine_l2vvbq.webp);"></div><div
+        class="c-text"><div class="c-title">Google Kubernetes Engine</div><div
+        class="c-short-description">Running and managing containerized
+        applications across multiple machines</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Kubernetes Enginem519L
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Running and managing containerized applications across
+          multiple machines
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: Google Kubernetes Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/google_kubernetes_engine_l2vvbq.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/google_kubernetes_engine__044448_l7kry7.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/google_kubernetes_engine_Black_87_lho249.webp
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 337
+    offsetY: -38
+    zIndex: 4
+    inEdges:
+      - Straight ConnectoriRCuB
+      - Orthogonal ConnectorTUehk
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #11167e; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Helm_Black_87_r9ij5n.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Helm_ggm8o4.webp);
+        border-radius: 50%"></div></div></div>'
+    id: HelmeFgIy
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Helm
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Helm
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Helm
+      editableName: Helm
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+      name: Helm
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Helm_ggm8o4.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Helm_Black_qvsrz4.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Helm_Black_87_r9ij5n.webp
+      color: "#11167e"
+      controlText: Helm
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 337
+    offsetY: 128
+    zIndex: 6
+    inEdges:
+      - Straight ConnectorUNKD2
+    outEdges:
+      - Straight ConnectoriRCuB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/crd_Black_87_bdru1i.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/crd_f4brlx.webp);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Custom
+        Resource Definition</div></div></div>'
+    id: Kubernetes Custom Resource DefinitionCS6rb
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Custom Resource Definition
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubernetes Custom Resource Definition
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Custom Resource Definition
+      editableName: Custom Resource Definition
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Custom Resource Definition
+      category: 7
+      imgUrl: https://static.softwaresim.com/logos/webp/crd_f4brlx.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/crd__044448_g31m0q.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/crd_Black_87_bdru1i.webp
+      color: "#416bdd"
+      controlText: Custom Resource Definition
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 237.99999999999997
+    height: 100
+    offsetX: 747
+    offsetY: 13
+    zIndex: 8
+    outEdges:
+      - Orthogonal ConnectorTUehk
+  - shape:
+      type: HTML
+      content: >
+        
+        <div class="number-annotation" style="font-size: 0">
+
+        <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39,20 A19,19 0 1,1 1,20 A19,19 0 1,1 39,20" fill="none" stroke="#2A2A2A" stroke-width="2"></path>
+          <text x="20" y="20" font-family="montserrat, sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2A2A2A">1</text>
+        </svg>
+
+        </div>
+    id: NumberPl4Vf
+    width: 40
+    height: 40
+    offsetX: 282
+    offsetY: 46
+    constraints: 4196334
+    previewSize:
+      width: 40
+      height: 40
+    margin:
+      top: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: CWOcr
+        content: "1"
+        offset:
+          x: 0.58
+          y: 0.55
+        style:
+          fill: none
+          fontSize: 21
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+      status: N/A
+      type: text
+    zIndex: 10
+  - shape:
+      type: HTML
+      content: >
+        
+        <div class="number-annotation" style="font-size: 0">
+
+        <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39,20 A19,19 0 1,1 1,20 A19,19 0 1,1 39,20" fill="none" stroke="#2A2A2A" stroke-width="2"></path>
+          <text x="20" y="20" font-family="montserrat, sans-serif" text-anchor="middle" dominant-baseline="middle" fill="#2A2A2A">1</text>
+        </svg>
+
+        </div>
+    id: NumbersAvKH
+    width: 40
+    height: 40
+    offsetX: 521
+    offsetY: 27
+    constraints: 4196334
+    previewSize:
+      width: 40
+      height: 40
+    margin:
+      top: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: CWOcr
+        content: "2"
+        offset:
+          x: 0.58
+          y: 0.55
+        style:
+          fill: none
+          fontSize: 21
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+      status: N/A
+      type: text
+    zIndex: 11
+connectors:
+  - id: Dashed Straight ConnectorKehq0
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 337
+      y: 337
+    targetPoint:
+      x: 337
+      y: 301
+    sourceID: CephWadZ7
+    targetID: RookrpTax
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight ConnectoriRCuB
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 337
+      y: 78
+    targetPoint:
+      x: 337
+      y: 12
+    sourceID: HelmeFgIy
+    targetID: Google Kubernetes Enginem519L
+    annotations:
+      - id: IMdnF
+        content: Operator Install
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Straight ConnectorUNKD2
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 337
+      y: 201
+    targetPoint:
+      x: 337
+      y: 178
+    sourceID: RookrpTax
+    targetID: HelmeFgIy
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Orthogonal ConnectorTUehk
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 628
+      y: 13
+    targetPoint:
+      x: 487
+      y: -38
+    sourceID: Kubernetes Custom Resource DefinitionCS6rb
+    targetID: Google Kubernetes Enginem519L
+    segments:
+      - type: Orthogonal
+        length: 68
+        direction: Left
+      - type: Orthogonal
+    annotations:
+      - id: SvKBf
+        content: Storage Instantiation
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+selectedItems:
+  width: 0
+  height: 0
